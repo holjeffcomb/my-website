@@ -1,11 +1,11 @@
 import React from "react"
 import Nav from "../components/Nav"
 
-export default function HomePage() {
+export default function WorkPage() {
   return (
     <div>
       <Nav />
-      <p>Hi I'm the home page of Jeff's site</p>
+      <p>Here's all the cool stuff I've done</p>
     </div>
   )
 }
