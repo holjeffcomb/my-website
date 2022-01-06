@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
-import bg from '../assets/images/bg.svg';
 import stripes from '../assets/images/stripes.svg';
+import '../assets/images/topobg.css';
 
 const GlobalStyles = createGlobalStyle`
   :root {
@@ -11,10 +11,9 @@ const GlobalStyles = createGlobalStyle`
     --grey: #efefef;
   }
   html {
-    background-image: url(${bg});
-    background-size: 450px;
     background-attachment: fixed;
-    font-size: 10px;
+    font-size: 15px;
+    
   }
 
   body {
@@ -81,6 +80,7 @@ const GlobalStyles = createGlobalStyle`
     display: inline-block;
   }
 
+  
 `;
 
 export default GlobalStyles;
